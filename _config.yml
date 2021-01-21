@@ -1,2 +1,3 @@
 name: gupeipei, product designer
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
