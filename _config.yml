@@ -15,24 +15,24 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "zh-CN"
+locale                   : "en-US"
 title                    : "麦谷新视界"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "麦谷"
+name                     : ""
 description              : "麦谷的个人网站"
 url                      :  "https://peipeigu.github.io"
 baseurl                  :  #"/blog"
 repository               :  "peipeigu/peipeigu.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : #"/assets/images/88x88.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 50
+words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : #  
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "麦谷"
+  name             : "Maigu"
   avatar           : "/assets/images/mai-photo.png"
-  bio              : "致力于终身学习的产品设计师！"
-  #location         : "HangZhou"
-  #email            : "artgupeipei@gmail.com"
+  bio              : "I am an **amazing** person."
+  location         : "HangZhou"
+  email            : "artgupeipei@163.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -275,9 +275,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: #true
-      comments: true
-      share: 
+      read_time: true
+      comments: # true
+      share: true
       related: true
-      show_date: true
-      read_time: #true

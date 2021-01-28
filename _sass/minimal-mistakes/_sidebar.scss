@@ -171,9 +171,7 @@
 }
 
 .author__bio {
-  margin: 0px;
-  margin-right: 1em;
-  font-size: $type-size-6;
+  margin: 0;
 
   @include breakpoint($large) {
     margin-top: 10px;

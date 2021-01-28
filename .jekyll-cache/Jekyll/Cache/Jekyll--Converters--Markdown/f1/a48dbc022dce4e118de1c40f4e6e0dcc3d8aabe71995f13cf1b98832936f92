@@ -1,0 +1,35 @@
+I"�<p>写博客输出的文章，偏向创作；
+写个人维基适合整理。很多入门级别、复用别人的操作，并不适合放在个人博客上。</p>
+
+<p><strong>用gollum构建自己的知识管理wiki系统</strong></p>
+
+<h2 id="gollum">Gollum</h2>
+
+<h3 id="gollum-是什么">Gollum 是什么？</h3>
+<p>Gollum简单来说就是一个基于git的Wiki系统。同时一个Gollum Wiki也是一个简易的git仓库：</p>
+
+<h3 id="如何安装-gollum">如何安装 Gollum</h3>
+
+<p>gollum是基于ruby编写的；所以在安装gollum之前，需要先安装ruby环境；</p>
+
+<p>另外，这样安装之后WIKI中对于Markdown文档不支持表格，需要运行一下如下语句:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install gollum
+gem install github-markdown
+</code></pre></div></div>
+
+<h2 id="运行">运行</h2>
+
+<ul>
+  <li>克隆GitHub到本地目录</li>
+</ul>
+
+<p>git clone 下相应维基的git地址</p>
+
+<p><strong>要运行，只需:</strong></p>
+<ol>
+  <li>运行：<code class="language-plaintext highlighter-rouge">gollum /path/to/wiki</code>。</li>
+  <li><code class="language-plaintext highlighter-rouge">http://localhost:4567</code>在浏览器中打开。</li>
+</ol>
+
+:ET
